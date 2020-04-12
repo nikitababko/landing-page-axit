@@ -1,0 +1,14 @@
+@media (max-width: 1190px) {
+    .tabs__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tabs__control {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    .tabs__content {
+        margin: 100px auto;
+    }
+}

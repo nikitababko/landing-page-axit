@@ -1,0 +1,118 @@
+.footer {
+    padding-top: 105px;
+    text-align: center;
+    &__title {
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        &::after {
+            display: block;
+            content: "";
+            width: 64px;
+            height: 2px;
+            margin: 25px auto;
+
+            background: #ff8b38;
+        }
+    }
+    &__subtitle {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #86878b;
+    }
+}
+
+.footer__form {
+    padding: 100px 0;
+
+    display: grid;
+    grid-template-columns: repeat(40, 30px);
+
+    input {
+        grid-column: 1/19;
+
+        margin: 20px 0;
+        padding: 0 0 10px 20px;
+
+        font-family: "Open Sans", sans-serif;
+        color: #86878b;
+
+        border: none;
+        border-bottom: 1px solid #86878b;
+        &:nth-child(2) {
+            grid-row: 2/3;
+        }
+        &:nth-child(3) {
+            grid-row: 3/4;
+            margin-bottom: 0;
+        }
+    }
+    textarea {
+        grid-row: 1/4;
+        grid-column: 22/-1;
+
+        padding: 0 0 10px 20px;
+
+        font-family: "Open Sans", sans-serif;
+        color: #86878b;
+
+        border: none;
+        border-bottom: 1px solid #86878b;
+        resize: none;
+    }
+    &-btn {
+        grid-row: 5/6;
+        grid-column: 18/23;
+
+        margin: 50px auto 0;
+        padding: 16px 24px;
+
+        width: 160px;
+
+        font-family: "Open Sans Semibold", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        background: #ff8b38;
+
+        border: none;
+        border-radius: 5px;
+
+        transition: all 0.4s linear;
+        &:hover {
+            color: #ff8b38;
+            background: #333;
+        }
+    }
+}
+
+.footer__inner {
+    padding: 30px 0;
+
+    background: #000;
+}
+
+.footer__social-link {
+    margin: 0 20px;
+    font-size: 25px;
+    color: #fff;
+
+    transition: color 0.4s linear;
+    &:hover {
+        color: #ff8b38;
+    }
+}
+
+.footer__inner-rights {
+    padding-top: 20px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #606060;
+    .footer__social-link {
+        margin: 0 10px 0 0;
+
+        font-size: 12px;
+        color: #606060;
+    }
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans"), local("OpenSans"),
+        url("fonts/open-sans/opensans.woff2") format("woff2"),
+        url("fonts/open-sans/opensans.woff") format("woff"),
+        url("fonts/open-sans/opensans.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: local("Open Sans Bold"), local("Open Sans Bold"),
+        url("fonts/open-sans-bold/opensansbold.woff2") format("woff2"),
+        url("fonts/open-sans-bold/opensansbold.woff") format("woff"),
+        url("fonts/open-sans-bold/opensansbold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+        url("fonts/open-sans-semibold/opensanssemibold.woff2") format("woff2"),
+        url("fonts/open-sans-semibold/opensanssemibold.woff") format("woff"),
+        url("fonts/open-sans-semibold/opensanssemibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: local("Raleway Regular"), local("Raleway-Regular"),
+        url("fonts/raleway-regular/ralewayregular.woff2") format("woff2"),
+        url("fonts/raleway-regular/ralewayregular.woff") format("woff"),
+        url("fonts/raleway-regular/ralewayregular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: local("Raleway Light"), local("Raleway-Light"),
+        url("fonts/raleway-light/ralewaylight.woff2") format("woff2"),
+        url("fonts/raleway-light/ralewaylight.woff") format("woff"),
+        url("fonts/raleway-light/ralewaylight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}

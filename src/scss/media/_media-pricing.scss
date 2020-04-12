@@ -1,0 +1,11 @@
+@media (max-width: 1300px) {
+    .pricing__content {
+        flex-direction: column;
+    }
+    .pricing__item {
+        margin: 0 auto 100px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

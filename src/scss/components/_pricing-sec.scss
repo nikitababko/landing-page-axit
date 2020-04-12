@@ -1,0 +1,144 @@
+.pricing {
+    padding: 100px 0;
+    text-align: center;
+
+    background: #f5f5f5;
+    &__title {
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        &::after {
+            display: block;
+            content: "";
+            width: 64px;
+            height: 2px;
+            margin: 25px auto;
+
+            background: #ff8b38;
+        }
+    }
+    &__subtitle {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #86878b;
+    }
+}
+
+.pricing__content {
+    position: relative;
+
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__item {
+    position: absolute;
+    width: 345px;
+    position: relative;
+
+    transition: all 0.4s linear;
+    &:hover {
+        .pricing__item-dark {
+            transform: translateY(-35px);
+        }
+
+        .pricing__item-population {
+            padding: 15px 0 20px;
+            transform: translateY(-35px);
+
+            color: #fff;
+        }
+    }
+
+    //===============================================
+    &-dark {
+        background: #333333;
+
+        transition: all 0.4s linear;
+    }
+    &-white {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        z-index: 0;
+
+        transition: all 0.4s linear;
+    }
+    //===============================================
+
+    &-title {
+        padding: 20px 0;
+
+        font-family: "Open Sans Bold", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+
+        border-bottom: 1px solid #fff;
+
+        transition: all 0.4s linear;
+    }
+    &-price {
+        padding: 20px 0;
+
+        font-family: "Open Sans Bold", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: #fff;
+
+        transition: all 0.4s linear;
+        span {
+            font-size: 60px;
+        }
+    }
+    &-date {
+        padding-bottom: 30px;
+
+        font-family: "Open Sans Bold", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 14px;
+        color: #999;
+
+        transition: all 0.4s linear;
+    }
+    &-population {
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        z-index: 0;
+
+        height: 5px;
+
+        font-family: "Open Sans Bold", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: transparent;
+        background: #ff8b38;
+
+        transition: all 0.4s linear;
+    }
+    &-space,
+    &-bandwidth,
+    &-web,
+    &-customization,
+    &-supp {
+        padding: 20px 0;
+
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #86878b;
+        text-transform: uppercase;
+        background: #fff;
+
+        border-bottom: 1px solid #f5f5f5;
+    }
+    &-space {
+        padding-top: 25px;
+    }
+}

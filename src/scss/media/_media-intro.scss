@@ -1,0 +1,22 @@
+@media (max-width: 1150px) {
+    .intro__btn {
+        margin-bottom: 50px;
+    }
+
+    .intro__content {
+        padding-top: 200px;
+        flex-direction: column;
+    }
+    .intro__registr {
+        margin-top: 80px;
+    }
+    .intro__registr-btn {
+        transform: translateY(60px);
+    }
+}
+
+@media (max-width: 720px) {
+    .intro__inner {
+        width: 500px;
+    }
+}

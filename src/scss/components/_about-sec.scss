@@ -1,0 +1,45 @@
+.about {
+    padding: 100px 0;
+    text-align: center;
+    &__title {
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        &::after {
+            display: block;
+            content: "";
+            width: 64px;
+            height: 2px;
+            margin: 25px auto;
+
+            background: #ff8b38;
+        }
+    }
+    &__subtitle {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #86878b;
+    }
+    &__content {
+        padding-top: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 355px;
+        &-title {
+            padding: 30px 0;
+
+            font-family: "Open Sans Bold", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        &-text {
+            line-height: 1.6;
+
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            color: #86878b;
+        }
+    }
+}

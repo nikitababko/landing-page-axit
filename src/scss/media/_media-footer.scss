@@ -1,0 +1,15 @@
+@media (max-width: 1400px) {
+    .footer__form {
+        display: flex;
+        flex-direction: column;
+        input {
+            margin: 0 0 70px;
+            width: 300px;
+        }
+        textarea {
+            margin-top: 70px;
+            height: 200px;
+            width: 300px;
+        }
+    }
+}

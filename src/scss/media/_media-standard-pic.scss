@@ -1,0 +1,23 @@
+@media (max-width: 1000px) {
+    .standard-pic__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .standard-pic__content {
+        margin: 0 auto 100px;
+    }
+    .standard-pic__title {
+        &::after {
+            margin: 30px auto;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .standard-pic__img {
+        img {
+            width: 100%;
+        }
+    }
+}

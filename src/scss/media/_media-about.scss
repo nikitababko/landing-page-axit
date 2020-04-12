@@ -1,0 +1,11 @@
+@media (max-width: 1020px) {
+    .about__content {
+        flex-direction: column;
+    }
+    .about__item {
+        margin: 0 auto 50px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

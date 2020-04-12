@@ -1,0 +1,51 @@
+/*======================
+Reset
+======================*/
+@import "./components/reset";
+
+/*======================
+Global styles
+======================*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*======================
+Global styles
+======================*/
+@import "./fonts/fonts";
+
+/*======================
+Components
+======================*/
+@import "./components/header";
+@import "./components/intro";
+@import "./components/social-media";
+@import "./components/tabs-sec";
+@import "./components/sub-list-sec";
+@import "./components/standard-pic-sec";
+@import "./components/about-sec";
+@import "./components/pricing-sec";
+@import "./components/reviews-sec";
+@import "./components/stylish-axu-des";
+@import "./components/footer";
+
+/*======================
+Media
+======================*/
+@import "./media/media-header";
+@import "./media/media-intro";
+@import "./media/media-social";
+@import "./media/media-tabs";
+@import "./media/media-sub-list";
+@import "./media//media-standard-pic";
+@import "./media/media-about";
+@import "./media/media-pricing";
+@import "./media/media-reviews";
+@import "./media/media-footer";

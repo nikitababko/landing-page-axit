@@ -1,0 +1,159 @@
+@media (max-width: 920px) {
+    .header__nav {
+        display: none;
+    }
+
+    .burger-btn {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+
+        padding: 18px 2px;
+
+        cursor: pointer;
+
+        &__menu {
+            position: relative;
+
+            display: block;
+            width: 40px;
+            height: 3px;
+
+            background: #fff;
+
+            &::before {
+                position: absolute;
+                top: -15px;
+                content: "";
+
+                width: 40px;
+                height: 3px;
+
+                background: #fff;
+
+                transition: transform 0.4s linear;
+            }
+            &::after {
+                position: absolute;
+                top: 15px;
+                content: "";
+
+                width: 40px;
+                height: 3px;
+
+                background: #fff;
+
+                transition: transform 0.4s linear;
+            }
+        }
+    }
+
+    /*=========================
+    Buger active
+    =========================*/
+    .burger-btn--active {
+        .burger-btn__menu {
+            background: transparent;
+            &::before {
+                transform-origin: left top;
+                transform: rotate(45deg) translate3d(2px, 0, 0);
+            }
+            &::after {
+                transform-origin: left top;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    /*=========================
+    Header nav active
+    =========================*/
+    .header__nav--active {
+        display: block;
+
+        position: absolute;
+        top: 77px;
+        right: 0;
+        left: 0;
+        z-index: 10;
+
+        background: #000;
+
+        ul {
+            text-align: center;
+            flex-direction: column;
+            li {
+                margin: 0 auto;
+                padding: 20px 0;
+                width: 100%;
+
+                cursor: pointer;
+
+                transition: all 0.4s linear;
+                &:hover {
+                    background: #fff;
+                    a {
+                        color: #000;
+                    }
+                }
+                &:last-child {
+                    margin-right: auto;
+                }
+                a {
+                    padding: 20px 400px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 890px) {
+    .header__nav--active {
+        ul {
+            li {
+                a {
+                    padding: 20px 350px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .header__nav--active {
+        ul {
+            li {
+                a {
+                    padding: 20px 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .header__nav--active {
+        ul {
+            li {
+                a {
+                    padding: 20px 250px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 590px) {
+    .header__nav--active {
+        ul {
+            li {
+                a {
+                    padding: 20px 200px;
+
+                    background: #fff;
+                }
+            }
+        }
+    }
+}

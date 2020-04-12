@@ -1,0 +1,56 @@
+.stylish-axu {
+    padding: 75px 0 60px;
+
+    background: url("img/stylish-axu-des/stylish-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+    &__title {
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        &::after {
+            display: block;
+            content: "";
+            width: 64px;
+            height: 2px;
+            margin: 25px auto;
+
+            background: #fff;
+        }
+    }
+    &__subtitle {
+        margin-bottom: 55px;
+
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #86878b;
+    }
+}
+
+.stylish-axu__btn {
+    padding: 14px 30px;
+
+    font-family: "Open Sans Semibold", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+
+    border: 2px solid #fff;
+
+    cursor: pointer;
+
+    transition: all 0.4s linear;
+
+    &:hover {
+        background: #fff;
+        color: #ff8b38;
+    }
+}
