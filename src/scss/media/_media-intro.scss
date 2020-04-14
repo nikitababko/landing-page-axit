@@ -1,4 +1,4 @@
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
     .intro__btn {
         margin-bottom: 50px;
     }
@@ -15,8 +15,82 @@
     }
 }
 
+@media (max-width: 1024px) and (orientation: landscape) {
+    .intro {
+        height: 190vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .intro {
+        height: 150vh;
+    }
+}
+
+@media (max-width: 820px) and (orientation: landscape) {
+    .intro {
+        height: 330vh;
+    }
+}
+
 @media (max-width: 720px) {
     .intro__inner {
         width: 500px;
+    }
+}
+
+@media (max-width: 650px) and (orientation: landscape) {
+    .intro {
+        height: 390vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro {
+        height: 200vh;
+    }
+
+    .intro__inner {
+        width: 300px;
+    }
+    .intro__title {
+        font-size: 26px;
+    }
+
+    .intro__registr {
+        width: 250px;
+        &-form {
+            input {
+                width: 190px;
+            }
+        }
+        &-btn {
+            width: 250px;
+
+            border-radius: 0 0 5px 5px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .container--intro {
+        padding: 0 20px;
+
+        text-align: center;
+    }
+    .intro__title {
+        &::after {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 325px) {
+    .container--intro {
+        padding: 0 10px;
+    }
+
+    .intro {
+        height: 250vh;
     }
 }

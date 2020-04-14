@@ -21,3 +21,13 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .standard-pic__container {
+        padding: 10px;
+    }
+
+    .standard-pic__content {
+        width: 300px;
+    }
+}

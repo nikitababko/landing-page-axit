@@ -1,8 +1,14 @@
-@media (max-width: 1120px) {
+@media (max-width: 1200px) {
     .reviews__content {
         flex-direction: column;
     }
     .reviews__item {
         margin: 0 auto 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    .reviews__container {
+        padding: 0 10px;
     }
 }

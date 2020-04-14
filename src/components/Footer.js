@@ -15,7 +15,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer id="footer" className="footer">
-                <div className="container">
+                <div className="container footer__container">
                     <h2 className="footer__title">Contact us</h2>
                     <p className="footer__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <form className="footer__form">

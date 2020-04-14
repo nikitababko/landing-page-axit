@@ -1,4 +1,4 @@
-@media (max-width: 1110px) {
+@media (max-width: 12000px) {
     .sublist__container {
         flex-direction: column;
         text-align: center;
@@ -13,7 +13,29 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 770px) {
+    .sublist__img {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .sublist__container {
+        padding: 0;
+    }
+    .sublist {
+        padding: 120px 0;
+        &__content {
+            width: 250px;
+        }
+        &-title {
+            &::after {
+                margin: 30px auto;
+            }
+        }
+    }
     .sublist__img {
         img {
             width: 100%;

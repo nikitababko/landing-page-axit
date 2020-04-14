@@ -4,7 +4,7 @@ export default class Reviews extends Component {
     render() {
         return (
             <section id="reviews" className="reviews">
-                <div className="container">
+                <div className="container reviews__container">
                     <h2 className="about__title">What our customers are saying</h2>
                     <p className="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className="reviews__content">

@@ -12,3 +12,29 @@
         margin: 100px auto;
     }
 }
+
+@media (max-width: 480px) {
+    .tabs__container {
+        padding: 0;
+    }
+    .tabs {
+        &__control {
+            &-btn {
+                padding: 40px 0;
+                width: 90px;
+            }
+        }
+        &__content {
+            width: 250px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .tabs__img {
+        img {
+            width: 280px;
+        }
+    }
+}

@@ -4,7 +4,7 @@ export default class Pricing extends Component {
     render() {
         return (
             <section id="pricing" className="pricing">
-                <div className="container">
+                <div className="container pricing__container">
                     <h2 className="pricing__title">Pricing options</h2>
                     <p className="pricing__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 

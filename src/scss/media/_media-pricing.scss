@@ -1,4 +1,4 @@
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     .pricing__content {
         flex-direction: column;
     }
@@ -7,5 +7,17 @@
         &:last-child {
             margin-bottom: 0;
         }
+    }
+}
+
+@media (max-width: 425px) {
+    .pricing__container {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .pricing__item {
+        width: 290px;
     }
 }
