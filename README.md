@@ -4,7 +4,6 @@
 
 ### Where and what is located (files, folders).
 
--   File "axit-layout.psd" - layout of the site from which I wrote the code
 -   Folder "src" - project's source
 -   Folder "build" - ready project
 -   File "webpack.config.js" - main config
