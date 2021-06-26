@@ -1,5 +1,9 @@
 {
   "name": "axit",
+  "author": {
+    "name": "Nikita Babko",
+    "email": "niki.babko@gmail.com"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +14,6 @@
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
-  "author": {
-    "name": "Nikita Babko",
-    "email": "niki.babko@gmail.com"
-  },
   "license": "ISC",
   "homepage": "https://github.com/nikitababko/landing-page-axit.git",
   "devDependencies": {
